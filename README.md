@@ -52,8 +52,8 @@ pnpm add -D localize-ts
 
 export interface Translations {
  title: string;
- description: (params: { description: string; package: string }) => string;
- greetings: (params: { name: string }) => string;
+ description: { description: string; package: string };
+ greetings: { name: string };
 }
 ```
 

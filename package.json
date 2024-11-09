@@ -1,6 +1,6 @@
 {
   "name": "localize-ts",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Internal library for localization",
   "main": "dist/index.js",
   "scripts": {

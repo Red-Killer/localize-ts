@@ -24,7 +24,7 @@ function genType(obj: TranslationObject, lvl = 1): string {
       const variables = extractVars(value);
       if (variables.length > 0) {
         const params = variables.map((v) => `${v}: string`).join("; ");
-        typeDef += `${indent}${key}: (params: { ${params} }) => string;\n`;
+        typeDef += `${indent}${key}: { ${params} };\n`;
       } else typeDef += `${indent}${key}: string;\n`;
     }
   }
