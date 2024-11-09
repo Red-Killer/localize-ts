@@ -1,10 +1,10 @@
 {
   "name": "localize-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Internal library for localization",
   "main": "dist/index.js",
   "scripts": {
-    "start": "ts-node src/index.ts",
+    "start": "node dist/index.js",
     "dev": "nodemon -q src/index.ts",
     "build": "tsc"
   },
