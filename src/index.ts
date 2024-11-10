@@ -12,9 +12,8 @@ const genType = (obj: TranslationObject, parentKey = ""): string =>
     const fullKey = parentKey ? `${parentKey}.${key}` : key;
     const formattedKey = fullKey.includes(".") ? `"${fullKey}"` : fullKey;
 
-    if (typeof value === "object") {
-      return typeDef + genType(value, fullKey);
-    } else if (typeof value === "string") {
+    if (typeof value === "object") return typeDef + genType(value, fullKey);
+    else if (typeof value === "string") {
       const variables = extractVars(value);
       return (
         typeDef +
