@@ -1,10 +1,11 @@
 {
   "name": "localize-ts",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Internal library for localization",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "test": "node dist/index.js -f ./test/en.json -o ./test/en.ts"
   },
   "bin": {
     "localize-ts": "dist/index.js"

@@ -1,0 +1,15 @@
+{
+    "title": "Some title",
+    "description": "Some {{description}}",
+    "multi_description": "Some {{description}} with {{multi}} values",
+    "nested": {
+        "title": "Some nested title",
+        "description": "Some nested {{description}}",
+        "multi_description": "Some nested {{description}} with {{multi}} values",
+        "second_nested": {
+            "title": "Some second nested title",
+            "description": "Some second nested {{description}}",
+            "multi_description": "Some second nested {{description}} with {{multi}} values"
+        }
+    }
+}
