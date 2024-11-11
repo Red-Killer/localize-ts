@@ -1,6 +1,6 @@
 # LOCALIZE-TS
 
-[![npm version](https://badge.fury.io/js/localize-ts.svg)](https://badge.fury.io/js/localize-ts)
+[![npm version](https://img.shields.io/npm/v/localize-ts.svg)](https://www.npmjs.com/package/localize-ts)
 [![npm downloads](https://img.shields.io/npm/dt/localize-ts)](https://www.npmjs.com/package/localize-ts)
 
 LOCALIZE-TS is a tool used to convert JSON translations into TypeScript definitions. This helps in maintaining type safety and consistency across your localization files.
